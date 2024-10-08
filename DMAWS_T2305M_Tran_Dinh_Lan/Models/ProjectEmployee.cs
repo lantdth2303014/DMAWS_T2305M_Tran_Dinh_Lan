@@ -17,7 +17,7 @@ namespace DMAWS_T2305M_Tran_Dinh_Lan.Models
         public string Tasks { get; set; }
 
         public virtual Employee Employees { get; set; }
-        public virtual Project Projects { get; set; }
+        public virtual Project? Projects { get; set; }  // Sửa thành nullable
     }
 }
 

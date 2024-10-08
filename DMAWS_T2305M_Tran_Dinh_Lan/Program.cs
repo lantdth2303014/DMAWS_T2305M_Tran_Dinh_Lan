@@ -14,7 +14,7 @@ builder.Services.AddDbContext<DMAWSContext>(options =>
 // Add services to the container
 builder.Services.AddControllers();
 
-// Cấu hình Swagger
+// Cấu hình Swagger cho API documentation
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -40,13 +40,18 @@ if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "DMAWS Project API v1");
-        c.RoutePrefix = string.Empty;
+        c.RoutePrefix = string.Empty; // Truy cập Swagger ở root URL (/) 
     });
 }
 
+// Sử dụng HTTPS trong ứng dụng
 app.UseHttpsRedirection();
+
+// Authorization middleware
 app.UseAuthorization();
 
+// Định tuyến các controller cho API
 app.MapControllers();
 
+// Chạy ứng dụng
 app.Run();

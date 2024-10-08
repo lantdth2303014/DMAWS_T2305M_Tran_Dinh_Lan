@@ -1,4 +1,5 @@
 ﻿using DMAWS_T2305M_Tran_Dinh_Lan.Data;
+using DMAWS_T2305M_Tran_Dinh_Lan.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
