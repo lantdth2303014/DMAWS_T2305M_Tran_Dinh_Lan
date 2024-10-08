@@ -1,0 +1,6 @@
+@DMAWS_T2305M_Tran_Dinh_Lan_HostAddress = http://localhost:5023
+
+GET {{DMAWS_T2305M_Tran_Dinh_Lan_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

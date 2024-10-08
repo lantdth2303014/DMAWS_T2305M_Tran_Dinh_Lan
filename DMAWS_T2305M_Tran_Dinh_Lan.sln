@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMAWS_T2305M_Tran_Dinh_Lan", "DMAWS_T2305M_Tran_Dinh_Lan\DMAWS_T2305M_Tran_Dinh_Lan.csproj", "{A5306124-DE30-4E85-97AA-98AE8EA049FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5306124-DE30-4E85-97AA-98AE8EA049FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5306124-DE30-4E85-97AA-98AE8EA049FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5306124-DE30-4E85-97AA-98AE8EA049FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5306124-DE30-4E85-97AA-98AE8EA049FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E86E2F9-C6D8-4FCF-861E-4B2006DCC04F}
+	EndGlobalSection
+EndGlobal
